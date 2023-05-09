@@ -1,0 +1,1 @@
+data class Question(val options: List<CountryData>, val correct: CountryData = options.random())
